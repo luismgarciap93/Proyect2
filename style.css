@@ -13,14 +13,7 @@
   border: none !important;
 }
 /* MAIN */
-.intro {
-  background: linear-gradient(rgba(1, 1, 1, 0.7), rgba(1, 1, 1, 0.7)),
-    url(img/Coachellah.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 500px;
-}
-/* Footer */
+
 .footerLinks {
   background: #264445 !important;
   color: #fff !important;
