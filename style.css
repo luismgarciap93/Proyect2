@@ -1,3 +1,10 @@
-.menu {
-  width: 1000px;
+.navegador {
+  background: #2c3531;
+}
+.navegador a {
+  color: #d1e8e2;
+}
+.navegador a:hover {
+  color: #e09b5e;
+  transition: all 0.5s ease-in-out;
 }
