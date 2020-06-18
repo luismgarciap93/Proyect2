@@ -47,3 +47,26 @@ div ul li a {
 div ul li a:hover {
   color: #b86d2b;
 }
+
+
+/*style below the slider*/
+
+
+main{
+  background-color: #d1e8e2;
+}
+
+.contentColor{
+  padding:0;
+}
+.contentImg{
+  padding:0px;
+  display:block;
+}
+.textColor{
+  color:#2c3531;
+}
+.h2Color{
+  color:#116466;
+  text-decoration: solid;
+}
