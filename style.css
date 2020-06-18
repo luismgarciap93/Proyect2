@@ -12,8 +12,6 @@
 .boton {
   border: none !important;
 }
-/* MAIN */
-
 .footerLinks {
   background: #264445 !important;
   color: #fff !important;
@@ -31,4 +29,14 @@ div ul li a {
 }
 div ul li a:hover {
   color: #b86d2b;
+}
+.container {
+  width: 80%;
+
+}
+section {
+  padding: 120px 0;
+}
+.bg-light-grey {
+   background-color:  #fff;
 }
