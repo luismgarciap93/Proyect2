@@ -28,6 +28,9 @@
   color: #fff;
   text-align: center;
 }
+.texto-intro h2 a {
+  color: #b86d2b;
+}
 /* Footer */
 .footerLinks {
   background: #264445 !important;
