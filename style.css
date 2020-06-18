@@ -19,6 +19,14 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 500px;
+  position: relative;
+}
+.texto-intro {
+  margin: auto;
+}
+.texto-intro h2 {
+  color: #fff;
+  text-align: center;
 }
 /* Footer */
 .footerLinks {
