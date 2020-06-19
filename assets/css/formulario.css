@@ -1,12 +1,12 @@
 
 .navegador {
-    background-color: #F64C72!important; 
+    color: #264445 !important; 
   }
   .navegador a {
-    color:black !important;
+    color:white !important;
   }
   .navegador a:hover {
-    color: #e09b5e !important;
+    columns: #e09b5e  !important;
     transition: all 0.5s ease-in-out;
   }
   .boton {
@@ -14,7 +14,7 @@
   }
 
 body{
-    background-color:#242582;
+    background-color:#66FCF1;
     
     
 }
@@ -24,14 +24,14 @@ h1{
     text-align: center;
     margin-top: 30px;
     font-size: 25px;
-    color:#264445;
+    color:#0B0C10;
 }
 form{
 
     margin: 40px;
     font-size: 15px;
     height: 600px;
-    border-color:  #116466;
+    border-color:#0B0C10;
 }
 
 
