@@ -15,7 +15,7 @@
 /* MAIN */
 .intro {
   background: linear-gradient(rgba(1, 1, 1, 0.7), rgba(1, 1, 1, 0.7)),
-    url(img/Coachellah.jpg);
+    url(assets/img/Coachellah.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 500px;
@@ -79,4 +79,10 @@ main{
   text-decoration: solid;
   font-size: 50px;
   
+}
+
+@media screen and (max-width: 600px) {
+  .h2Color {
+    text-align: center !important;
+  }
 }
