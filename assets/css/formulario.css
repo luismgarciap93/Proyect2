@@ -14,7 +14,8 @@
   }
 
 body{
-    background-color:#66FCF1;
+    background-color:#C5C6C7;
+   
     
     
 }
@@ -30,9 +31,15 @@ form{
 
     margin: 40px;
     font-size: 15px;
+    color: #0B0C10;
     height: 600px;
     border-color:#0B0C10;
 }
+.container,input, button{
+  border-color:#66FCF1 !important;
+  
+}
+
 
 
 .footerLinks {
