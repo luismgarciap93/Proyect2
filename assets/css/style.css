@@ -15,7 +15,7 @@
 /* MAIN */
 .intro {
   background: linear-gradient(rgba(1, 1, 1, 0.7), rgba(1, 1, 1, 0.7)),
-    url(assets/img/Coachellah.jpg);
+    url(../img/Coachellah.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 500px;
