@@ -1,9 +1,9 @@
 
 .navegador {
-    background: #3FEEE6 !important; 
+    background: #3FEEE6!important; 
   }
   .navegador a {
-    color: #fff !important;
+    color:black!important;
   }
   .navegador a:hover {
     color: #e09b5e !important;
