@@ -32,6 +32,7 @@
   color: #b86d2b;
 }
 /* Footer */
+
 .footerLinks {
   background: #264445 !important;
   color: #fff !important;
@@ -51,34 +52,30 @@ div ul li a:hover {
   color: #b86d2b;
 }
 
-
 /*style below the slider*/
 
-
-main{
+main {
   background-color: #d1e8e2;
 }
 
-.contentColor{
-  padding:0;
+.contentColor {
+  padding: 0;
 }
-.contentImg{
-  padding:0px;
-  display:block;
+.contentImg {
+  padding: 0px;
+  display: block;
 }
-.textColor{
-  color:#2c3531;
+.textColor {
+  color: #2c3531;
 }
-.h2Color{
-  color:#116466;
+.h2Color {
+  color: #116466;
   text-decoration: solid;
-  
 }
-.previousEvent{
-  color:#116466;
+.previousEvent {
+  color: #116466;
   text-decoration: solid;
   font-size: 50px;
-  
 }
 
 @media screen and (max-width: 600px) {
