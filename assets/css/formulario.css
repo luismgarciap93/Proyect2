@@ -1,50 +1,34 @@
-
-
-
-body{
-    background-color:#0B0C10;
-   
-    
-    
+body {
+  background-color: #c5c6c7 !important;
 }
 
-
-h1{
-    text-align: center;
-    margin-top: 30px;
-    font-size: 25px;
-    color:#66FCF1 !important;
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+  color: #45a29e !important;
 }
-form{
-
-    margin: 40px;
-    font-size: 15px;
-    color:#C5C6C7;
-    height: 600px;
-    border-color:#0B0C10;
+form {
+  margin: 40px;
+  font-size: 15px;
+  color: #c5c6c7;
+  /* height: 600px; */
+  border-color: #c5c6c7 !important;
 }
-.container,input, button{
-  border-color:#66FCF1 !important;
-
-  
+.container,
+input,
+button {
+  border-color: #66fcf1 !important;
 }
-div button{
+div button {
   width: 15%;
   height: 30px;
   text-align: center !important;
+  position: relative;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.form-check-label {
+  color: black;
+}
+.labeltxt {
+  color: black;
+}

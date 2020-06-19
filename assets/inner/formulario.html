@@ -1,169 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Eve prime ¡Consigue tus eventos!</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/9a5342def2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/formulario.css">
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Eve prime ¡Consigue tus eventos!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/9a5342def2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/formulario.css">
+  <link rel="stylesheet" href="../css/style.css">
 
 </head>
+
 <body>
   <header class="">
     <nav class="navbar navbar-expand-lg navbar-light bg-light navegador">
-        <a class="navbar-brand" href="#">EVE Prime</a>
-        <button class="navbar-toggler boton" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon ">
-                <i class="fas fa-bars" style="color:#e09b5e; font-size:28px;"></i>
-            </span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav ">
-                <a class="nav-item nav-link " href="#">Inicio </a>
-                <a class="nav-item nav-link" href="#">Eventos</a>
-                <a class="nav-item nav-link" href="#">Galería</a>
-                <a class="nav-item nav-link " href="#">Contacto</a>
-                <a class="nav-item nav-link " href="#">
-                    <i class="fas fa-search fa-1x"></i>
-                </a>
+      <a class="navbar-brand" href="#">EVE Prime</a>
+      <button class="navbar-toggler boton" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon ">
+          <i class="fas fa-bars" style="color:#e09b5e; font-size:28px;"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+          <a class="nav-item nav-link " href="../../index.html">Inicio </a>
+          <a class="nav-item nav-link" href="">Eventos</a>
+          <a class="nav-item nav-link" href="">Galería</a>
+          <a class="nav-item nav-link " href="#">Contacto</a>
+          <a class="nav-item nav-link " href="#">
+            <i class="fas fa-search fa-1x"></i>
+          </a>
 
 
-            </div>
         </div>
+      </div>
     </nav>
-</header>
+  </header>
 
-    <main>
-      <!-- FORMULARIO -->
-        <form class="col-8 m-auto">
-    
-            <div class="container"></div>
-            <h1 >Ingresa tus datos</h1>
-            <br>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputtext">Nombre:</label>
-                <input type="text" class="form-control" id="inputname" placeholder="Nombre">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="inputEmail4">Correo:</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputAddress">Dirección:</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Ej:Calle 1234">
-            </div>
-            <div class="form-group">
-              <label for="tel">Teléfono:</label>
-              <input type="tel" class="form-control" id="inputphonenumber">
-            </div>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputCity">Ciudad:</label>
-                <input type="text" class="form-control" id="inputCity">
-              </div>
-              <div class="form-group col-md-3">
-                <label for="text">Forma de pago:</label>
-                <Select id="text" class="form-control">
-                  <option selected>Selecciona la opción</option>
-                  <option>Tarjeta débito</option>
-                  <option>Tarjeta de crédito</option>
-                  <option>PSE</option>
-                  <option>Efectivo</option>
-                </Select>
-              </div>
-
-              <div class="form-group col-md-3">
-                <label for="">Número de Tarjeta:</label>
-                <Input type="" class="form-control" id= "inputnumber"placeholder="Introduzca un número">
-                </div>
-              <hr>
-          
-            <div class="form-group col-3 offset-3">
-              <div class="form-check"> </div>
-                <input class="form-check-input mt-2" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Acepto recibir  al correo notificación de los próximos eventos.
-                </label>
-            
-            
-          <div class=" form-check"></div>
-                <input class="form-check-input mt-2 " type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Acepto recibir  al teléfono notificación de los próximos eventos.
-                </label>
-              </div>
-          
-         <div class="form-group"></div>
-            <button type="submit" class="btn  text-white offset-4 mt-5  ">Enviar</button>
-          </div>
-          </form>
-    </main>
+  <main>
     <!-- FORMULARIO -->
-    <!-- Footer -->
-    <footer class="page-footer font-small ">
+    <form class="col-8 m-auto">
 
-      <!-- Footer Links -->
-      <div class="container-fluid text-center text-md-left footerLinks">
+      <div class="container"></div>
+      <h1>Ingresa tus datos</h1>
+      <br>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label class="labeltxt" for="inputtext">Nombre:</label>
+          <input type="text" class="form-control" id="inputname" placeholder="Nombre">
+        </div>
+        <div class="form-group col-md-6">
+          <label class="labeltxt" for="inputEmail4">Correo:</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="labeltxt" for="inputAddress">Dirección:</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Ej:Calle 1234">
+      </div>
+      <div class="form-group">
+        <label class="labeltxt" for="tel">Teléfono:</label>
+        <input type="tel" class="form-control" id="inputphonenumber">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label class="labeltxt" for="inputCity">Ciudad:</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-3">
+          <label class="labeltxt" for="text">Forma de pago:</label>
+          <Select id="text" class="form-control">
+            <option selected>Selecciona la opción</option>
+            <option>Tarjeta débito</option>
+            <option>Tarjeta de crédito</option>
+            <option>PSE</option>
+            <option>Efectivo</option>
+          </Select>
+        </div>
 
-          <!-- Grid row -->
-          <div class="row justify-content-around">
+        <div class="form-group col-md-3">
+          <label class="labeltxt" for="">Número de Tarjeta:</label>
+          <Input type="" class="form-control" id="inputnumber" placeholder="Introduzca un número">
+        </div>
+        <hr>
 
-              <!-- Grid column -->
-              <div class="col-md-6 mt-md-0 mt-3">
+        <div class="form-group col-3 offset-2">
+          <div class="form-check"> </div>
+          <input class="form-check-input mt-2" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Acepto recibir al correo notificación de los próximos eventos.
+          </label>
 
-                  <!-- Content -->
-                  <h5 class="text-uppercase mt-3">Footer Content</h5>
-                  <p>Here you can use rows and columns to organize your footer content.</p>
 
-              </div>
-              <!-- Grid column -->
+          <div class=" form-check"></div>
+          <input class="form-check-input mt-2 " type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Acepto recibir al teléfono notificación de los próximos eventos.
+          </label>
+        </div>
 
-              <hr class="clearfix w-100 d-md-none pb-3">
+        <div class="form-group"></div>
+        <button type="submit" class="btn  text-dark offset-4 mt-5  ">Enviar</button>
+      </div>
+    </form>
+  </main>
+  <!-- FORMULARIO -->
+  <!-- Footer -->
+  <footer class="page-footer font-small ">
 
-              <!-- Grid column -->
-              <div class="col-md-3 mb-md-0 mb-3 d-flex flex-column align-items-center">
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left  pt-3 footerLinks">
 
-                  <!-- Links -->
-                  <h5 class="text-uppercase mt-3">Social Media</h5>
+      <!-- Grid row -->
+      <div class="row justify-content-around">
 
-                  <ul class="list-unstyled">
-                      <li>
-                          <a href="#!"><i class="fab fa-twitter"></i></a>
-                      </li>
-                      <li>
-                          <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                          <a href="#!"><i class="fas fa-share-alt-square"></i></a>
-                      </li>
-                      <li>
-                          <a href="#!"><i class="fab fa-instagram"></i></a>
-                      </li>
-                  </ul>
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
 
-              </div>
+          <!-- Content -->
+          <h5 class="text-uppercase">Footer Content</h5>
+          <p>Here you can use rows and columns to organize your footer content.</p>
 
-          </div>
-          <!-- Grid row -->
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3 d-flex flex-column align-items-center">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">Social Media</h5>
+
+          <ul class="list-unstyled d-flex w-100 justify-content-around">
+            <li>
+              <a href="#!"><i class="fab fa-twitter "></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="fab fa-facebook-f "></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="fas fa-share-alt-square "></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="fab fa-instagram "></i></a>
+            </li>
+          </ul>
+
+        </div>
 
       </div>
-      <!-- Footer Links -->
+      <!-- Grid row -->
 
-      <!-- Copyright -->
-      <div class="footer-copyright footerCopy text-center py-3">© 2020 Copyright:
-          <a href="https://bit.institute/"> BIT</a>
-      </div>
-      <!-- Copyright -->
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright footerCopy text-center py-3">© 2020 Copyright:
+      <a href="https://bit.institute/"> BIT</a>
+    </div>
+    <!-- Copyright -->
 
   </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
