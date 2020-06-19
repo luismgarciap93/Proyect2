@@ -1,17 +1,5 @@
 
-.navegador {
-    color: #264445 !important; 
-  }
-  .navegador a {
-    color:white !important;
-  }
-  .navegador a:hover {
-    columns: #e09b5e  !important;
-    transition: all 0.5s ease-in-out;
-  }
-  .boton {
-    border: none !important;
-  }
+
 
 body{
     background-color:#0B0C10;
@@ -47,26 +35,6 @@ div button{
 }
 
 
-
-
-.footerLinks {
-    background: #264445 !important;
-    color: #fff !important;
-  }
-  .footerCopy {
-    background: #116466 !important;
-    color: #fff;
-  }
-  .footerCopy a {
-    color: #e09b5e;
-  }
-  
-  div ul li a {
-    color: #e09b5e;
-  }
-  div ul li a:hover {
-    color: #b86d2b;
-  }
 
 
 
