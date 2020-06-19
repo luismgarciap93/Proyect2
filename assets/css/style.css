@@ -1,34 +1,105 @@
 /* NAVBAR */
 .navegador {
-  background: #264445 !important;
+  background: #0b0c10 !important;
+}
+.navbar-brand {
+  padding-right: 5px;
 }
 .navegador a {
   color: #fff !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 .navegador a:hover {
-  color: #e09b5e !important;
-  transition: all 0.5s ease-in-out;
+  color: #66fcf1 !important;
+  border-right: 2px solid #66fcf1;
+  transition: color 0.5s ease-in-out;
 }
 .boton {
   border: none !important;
 }
 /* MAIN */
-
+.intro {
+  background: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),
+    url(../img/fondo-tonalidad-obscuro.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #0b0c10;
+  height: 500px;
+  position: relative;
+}
+.texto-intro {
+  margin: auto;
+}
+.texto-intro h2 {
+  color: #fff;
+  text-align: center;
+}
+.texto-intro h2 a {
+  color: #66fcf1;
+}
+/* Footer */
+footer {
+  border-top: 2px solid #66fcf1;
+}
 .footerLinks {
-  background: #264445 !important;
+  background: #0b0c10 !important;
   color: #fff !important;
 }
 .footerCopy {
-  background: #116466 !important;
+  background: #45a29e !important;
   color: #fff;
 }
 .footerCopy a {
-  color: #e09b5e;
+  color: #66fcf1;
 }
 
 div ul li a {
-  color: #e09b5e;
+  color: #66fcf1;
 }
 div ul li a:hover {
-  color: #b86d2b;
+  color: #285855;
+}
+div ul li a i {
+  font-size: 22px;
+}
+/*style below the slider*/
+
+main {
+  background-color: #0b0c10;
+}
+
+.contentColor {
+  padding: 0;
+}
+.contentImg {
+  padding: 0px;
+  display: block;
+}
+.textColor {
+  color: #fff;
+}
+.h2Color {
+  color: #45a29e;
+  text-decoration: solid;
+  border-bottom: 1px solid #45a29e;
+}
+.previousEvent {
+  color: #fff !important;
+  text-decoration: solid;
+  font-size: 50px;
+  background-color: #0b0c10;
+  margin-bottom: 0px !important;
+  border-bottom: 2px solid #fff;
+}
+.previousEvent:hover {
+  color: #66fcf1 !important;
+  border-bottom: 2px solid #66fcf1;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+  .h2Color {
+    text-align: center !important;
+  }
 }
