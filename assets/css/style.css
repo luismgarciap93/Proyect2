@@ -57,6 +57,9 @@ footer {
 div ul li a {
   color: #66fcf1;
 }
+div ul.list-unstyled {
+  padding-top: 30px;
+}
 div ul li a:hover {
   color: #285855;
 }
